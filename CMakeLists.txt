@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.15)
+project(Starbuzz)
+include_directories(include)
+add_executable(Starbuzz-raw src/main.cpp)
+add_executable(Starbuzz-smart src/main-smart.cpp)
